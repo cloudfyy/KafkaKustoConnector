@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "blobs": {
+      "maxDegreeOfParallelism": "5"
+    },
+    "kafka": {
+      "maxBatchSize": 64,
+      "SubscriberIntervalInSeconds": 1,
+      "ExecutorChannelCapacity": 1,
+      "ChannelFullRetryIntervalInMs": 50,
+      "FetchMaxBytes": 10485760,
+      "MaxPartitionFetchBytes": 10485760
+    }
+  },
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "logLevel": {
+        "default": "Information",
+        "Host.Triggers.Kafka": "Information",
+        "Kafka": "Information",
+        "Host.Results": "Error",
+        "Function": "Trace",
+        "Function.FunctionA": "Warning",
+        "Host.Aggregator": "Trace"
+      }
+    }
+  }
+}

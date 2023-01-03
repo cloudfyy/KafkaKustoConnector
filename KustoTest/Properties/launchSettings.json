@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KustoTest": {
+      "commandName": "Project",
+      "commandLineArgs": "-cluster https://k2adx.eastasia.kusto.windows.net -table t_k2_logs -db k2logs -mode queue"
+    }
+  }
+}

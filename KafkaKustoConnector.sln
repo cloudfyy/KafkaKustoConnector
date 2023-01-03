@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KustoIngestTest", "KustoTest\KustoIngestTest.csproj", "{3ED6D62D-D2D6-43D4-A4C3-FB613188BBBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaKustoConnector", "KafkaKustoConnector\KafkaKustoConnector.csproj", "{59B9D0C3-D948-4712-932B-1E7992DD9DBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consumer", "consumer\consumer.csproj", "{17FDCAE9-6309-446D-9467-55E44235DC7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "producer", "producer\producer.csproj", "{E731B180-3D35-450E-BB89-66D0B3600093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5AB8D71-930A-4FBC-B93C-3E287C752444}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.MD = Readme.MD
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KustoReader", "KustoReader\KustoReader.csproj", "{C8B775D8-FB8B-49DB-8757-DAE18845B7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{20502524-1619-40B0-B849-CB31E11325B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED6D62D-D2D6-43D4-A4C3-FB613188BBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED6D62D-D2D6-43D4-A4C3-FB613188BBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED6D62D-D2D6-43D4-A4C3-FB613188BBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED6D62D-D2D6-43D4-A4C3-FB613188BBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B9D0C3-D948-4712-932B-1E7992DD9DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B9D0C3-D948-4712-932B-1E7992DD9DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B9D0C3-D948-4712-932B-1E7992DD9DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B9D0C3-D948-4712-932B-1E7992DD9DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FDCAE9-6309-446D-9467-55E44235DC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FDCAE9-6309-446D-9467-55E44235DC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FDCAE9-6309-446D-9467-55E44235DC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FDCAE9-6309-446D-9467-55E44235DC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E731B180-3D35-450E-BB89-66D0B3600093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E731B180-3D35-450E-BB89-66D0B3600093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E731B180-3D35-450E-BB89-66D0B3600093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E731B180-3D35-450E-BB89-66D0B3600093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B775D8-FB8B-49DB-8757-DAE18845B7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B775D8-FB8B-49DB-8757-DAE18845B7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B775D8-FB8B-49DB-8757-DAE18845B7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B775D8-FB8B-49DB-8757-DAE18845B7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20502524-1619-40B0-B849-CB31E11325B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20502524-1619-40B0-B849-CB31E11325B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20502524-1619-40B0-B849-CB31E11325B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20502524-1619-40B0-B849-CB31E11325B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDEAEE5E-0875-4541-886C-18086922F8EF}
+	EndGlobalSection
+EndGlobal

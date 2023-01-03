@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "producer": {
+      "commandName": "Project",
+      "commandLineArgs": "10.4.0.7:9092,10.4.0.6:9092,10.4.0.5:9092,10.4.0.4:9092 largemessage 108 10"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
